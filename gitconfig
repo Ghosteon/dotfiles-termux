@@ -1,0 +1,12 @@
+[user]
+    email = 
+    name = 
+
+[alias]
+    uncommit = reset HEAD^
+
+[log]
+    date = relative
+  
+[format]
+    pretty = format:%C(bold magenta)%h %Cblue%>(12)%ad %C(cyan)%<(7)%aN%Cred%d %Creset%s

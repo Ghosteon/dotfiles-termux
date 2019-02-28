@@ -10,7 +10,6 @@ Plug 'terryma/vim-multiple-cursors'
 
 call plug#end()
 
-
 set number
 filetype plugin indent on
 syntax on
@@ -20,7 +19,7 @@ colorscheme codedark
 
 noremap <Space> :
 
-map <C-p> :NERDTreeToggle<CR>
+map <C-z> :NERDTreeToggle<CR>
 let g:NERDTreeWinPos = 'right'
 
 set tabstop=4
